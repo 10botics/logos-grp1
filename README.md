@@ -1,6 +1,38 @@
-# Music Project
+# Rhythm Game
 
-A Python project for music processing.
+A Python-based rhythm game that combines music and video playback with interactive gameplay. Players must click circular buttons in time with the music as they light up randomly during video playback.
+
+## Features
+
+- Video background with synchronized audio playback
+- Interactive circular buttons that light up during gameplay
+- Score tracking system
+- Hover effects in song selection menu
+- Support for multiple songs
+- Automatic video resizing to match source resolution
+- Seamless loop playback for both video and audio
+
+## Gameplay
+
+- **Song Selection**: Choose from available songs in the menu
+- **Controls**: 
+  - Click the circular buttons when they light up yellow
+  - Score 100 points for each successful hit
+  - Press 'Q' at any time to quit
+  - Press 'R' at game over to restart
+- **Layout**:
+  - Six circular buttons arranged in arrow formations on both sides
+  - Score display in top-left corner
+  - Tick counter in top-right corner
+  - Video playback in the background
+
+## Technical Details
+
+- Built with Python using Pygame and OpenCV
+- Supports MP4 video files with WAV audio
+- Video playback synchronized with audio at native FPS
+- Adaptive window sizing based on video resolution
+- WAV audio configured for optimal playback (44.1kHz, 16-bit, stereo)
 
 ## Installation
 
